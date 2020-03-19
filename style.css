@@ -1,8 +1,10 @@
 body {
-    background-color: gray;
     color: white;
     font-family: 'Montserrat';
     margin: 30px
+}
+.page{
+    margin:30px
 }
 .col-6{
     border: 1px solid;
@@ -49,7 +51,7 @@ h1 {
 }
 .bgTop {
     z-index: 15;
-    opacity: 0.5;
+    opacity: 0.85;
 }
 .bgMiddle {
     z-index: 10;
