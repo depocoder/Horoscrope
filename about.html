@@ -9,9 +9,14 @@
             rel= "stylesheet"
             type="text/css"
             href="style.css"/>
+    <script src = 'helpers.js'></script>
+    <script
+  src="http://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>О чем все это?</h1>
+    <h1 onclick ='log_header_click()'>О чем все это?</h1>
     <p>Здравствуйте вы попали на мой первый проект на GitHub, на данный момент он не доделан.
         Этот обычные гороскопы.
     </p>
@@ -26,7 +31,7 @@
         <li>После обеда</li>
         <li>Перед сном</li>
     </ul>
-    <p><li>Глаголы</li></p>
+    <p id = 'second-paragraph'><li>Глаголы</li></p>
     <ul>
     <li>Ожидайте</li>
     <li>Предостерегайтесь</li>
@@ -40,6 +45,14 @@
             <li>Приятных перемен</li>
             
         </ul></br>
-    <a href ='index.html'>Гороскоп!</a>
+    
+    <li>Основновные функции сайта</li>
+    <ul>
+        <li>Нажмите на заголовок на главной странице</li>
+    </ul>
+    </ol>
+    <p class = 'link'>>><a href ='index.html'>Гороскоп!</a><<</p>
+    
 </body>
+
 </html>
