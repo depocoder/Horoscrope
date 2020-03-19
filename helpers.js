@@ -3,7 +3,7 @@ function log_header_click(){
         $('#second-paragraph').html('Секретное_ПОСЛАНИЕ!: МАКБУК ЭТО МОЯ ЖИЗНЬ!!!!!!!!!!!!!')
     }
 function alert_message_and_secret(){
-    alert("Йоу-Йоу")
+    alert("Йоу-Йоу-Йоу")
 
     p = $('#second-paragraph');
     
